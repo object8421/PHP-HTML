@@ -59,10 +59,10 @@
 <meta charset="utf-8" />
 
 <!--
-  <meta http-equiv="refresh" content="2">  ×Ô¶¯Ë¢ĞÂÕû¸öÒ³Ãæ£¬ÕâÀï 2±íÊ¾2Ãë.
-  Ajax ¿ÉÒÔË¢ĞÂÖ¸¶¨µÄDIV.
+  <meta http-equiv="refresh" content="3">     æ¯3ç§’åˆ·æ–°ä¸€æ¬¡æ•´ä¸ªé¡µé¢
+
   -->
-  <meta http-equiv="refresh" content="2">
+  <meta http-equiv="refresh" content="3">
 
 </head>
 
@@ -70,13 +70,13 @@
 
   <?php
 /*
-ÀûÓÃÊı×éÀ´ÊµÏÖ¶ÁÈ¡ÎÄ¼ş×îºóµÄnĞĞ
+åˆ©ç”¨æ•°ç»„æ¥å®ç°è¯»å–æ–‡ä»¶æœ€åçš„nè¡Œ
 
 */
-//header('Location: http://127.0.0.1/file-read/');   //ÓÀÔ¶ÊÇÕâ¸öÒ³Ãæ
+//header('Location: http://127.0.0.1/file-read/');   //urlé‡å®šå‘
 
-$num=10;    //±íÊ¾¶ÁÈ¡×îºónĞĞ
-$file="D:/phpStudy/WWW/file-read/file.txt";  //¶ÁÈ¡Ö¸¶¨µÄÎÄ¼ş
+$num=10;     //è¡¨ç¤ºè¯»å–æœ€ånè¡Œ
+$file="D:/phpStudy/WWW/file-read/file.txt";   //è¯»å–æŒ‡å®šçš„æ–‡ä»¶
 //echo $file;
 
 //$fh = fopen('file.txt','r');
@@ -94,11 +94,11 @@ file_put_contents('memory.txt',memory_get_usage());
 //var_dump($r);
 //echo $r;
 
-//·ÃÎÊÊı×é³ÉÔ±
+//è®¿é—®æ•°ç»„æˆå‘˜
 
 for($i=0;$i < count($r);$i++) {
 
-echo $r[$i].'<br />';    //»»ĞĞ·û
+echo $r[$i].'<br />';   //æ¢è¡Œç¬¦
 
 }
 
@@ -112,31 +112,31 @@ echo $r[$i].'<br />';    //»»ĞĞ·û
     <input name="button4" style="width:120px;height:60px;" type="button" onclick="history.go(0)" value="start 24web" />
   </div>
 </div>
+
 <div id="Layer5">
   
   <div align="left">
     <!--
 	<input name="button3" style="width:120px;height:60px;" type="button" onclick="history.go(0)" value="stop 24web" />
-	µ÷ÓÃÁíÒ»¸öphpº¯Êı
-	-->
-<script>	
-function load(){
+	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½phpï¿½ï¿½ï¿½ï¿½
 	
+		<input style="width:120px;height:60px;" onClick="javascript:window.location.href='test/stop-24web.php';" type="button" name="stop" value="stop 24web" />
+		-->
+		<script>	
+function load(){
+	//ä¸‹é¢ä¸¤ç§æ–¹æ³•æ•ˆæœæ˜¯ä¸€æ ·çš„
 	document.getElementById("target").onclick();	
 }
 function test(){
-	alert("ÄãÒÑ¾­stopÁË24-webµÄresin");
-	//window.location.href='test/stop-24web.php';	
+	alert("ä½ è¦stopæ‰24-webçš„resinå—ï¼Ÿå¦‚æœæ˜¯ï¼Œè¯·ç‚¹å‡»ç¡®å®š");
+	window.location.href='test/stop-24web.php';	
 }
-</script>
-<body onload="load()">	
-<!--	
-<input style="width:120px;height:60px;" onClick="test()" type="button" name="stop" value="stop 24web" />
--->
+	</script>
+	
+<div id="Layer7" onload="load()">		
+<button id="target" style="width:120px;height:60px;" onclick="test()">stop 24web</button>
+</div>
 
-<button id="target" style="width:120px;height:60px;"  onclick="test()">stop 24web</button>
-
-</body>		
 
 	
 	
