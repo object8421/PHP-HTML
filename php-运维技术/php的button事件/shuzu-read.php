@@ -73,6 +73,8 @@
 利用数组来实现读取文件最后的n行
 
 */
+//header('Location: http://127.0.0.1/file-read/');   //永远是这个页面
+
 $num=10;    //表示读取最后n行
 $file="D:/phpStudy/WWW/file-read/file.txt";  //读取指定的文件
 //echo $file;
@@ -116,11 +118,11 @@ echo $r[$i].'<br />';    //换行符
     <!--
 	<input name="button3" style="width:120px;height:60px;" type="button" onclick="history.go(0)" value="stop 24web" />
 	调用另一个php函数
-	--
-		<input style="width:120px;height:60px;" onClick="javascript:window.location.href='test/stop-24web.php';" type="button" name="stop" value="stop 24web">
-		上面是链接到另一个页面.
 	-->
-	<input style="width:120px;height:60px;" onClick="javascript:window.location.href='test/stop-24web.php';" type="button" name="stop" value="stop 24web">
+		<input style="width:120px;height:60px;" onClick="javascript:window.location.href='test/stop-24web.php';" type="button" name="stop" value="stop 24web" />
+		
+
+	
 	
   </div>
 </div>
