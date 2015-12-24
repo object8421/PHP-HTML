@@ -46,7 +46,7 @@
                     <img class="login-logo login-6" src="./User Login_files/login-logo.png">
                     <div class="login-content">
                         <h1>管理员登陆</h1>
-                        <p>华邦云监控系统 </p>
+                        <p>监控系统 </p>
                         <p style="color: red;">  </p>
                         <!-- 登录按钮的间隔 -->
                         <form action="logincheck.php"  class="login-form" novalidate="novalidate" method="post" >
