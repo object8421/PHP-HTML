@@ -8,7 +8,8 @@
   <title>折叠菜单显示</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Iconos 图标显示引用css-->
+	<!-- Iconos 图标显示引用css,css 不单单只包含字体还有图标等等所以必须引用，而且是cdn的所以很快-->
+	<!-- 网站：http://www.bootcss.com/p/font-awesome/  可以通过F12 看class并引入-->
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- 		<link href="css/font-awesome.min.css" rel="stylesheet"> -->
@@ -42,7 +43,7 @@
 			</ul>
 		</li>
 		<li>
-			<div class="link"><i class="fa fa-mobile"></i>动物列表<i class="fa fa-chevron-down"></i></div>
+			<div class="link"><i class="fa fa-plane"></i>动物列表<i class="fa fa-chevron-down"></i></div>
 			<ul class="submenu">
 				<li><a href="#">猫</li>
 				<li><a href="#">狗</a></li>
