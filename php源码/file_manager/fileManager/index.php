@@ -251,7 +251,7 @@ echo $str;
 
 <body>
 <div id="showDetail"  style="display:none"><img src="" id="showImg" alt=""/></div>
-<h1>慕课网-在线文件管理器</h1>
+<h1>Knight-在线文件管理器</h1>
 <div id="top">
 	<ul id="navi">
 		<li><a href="index.php" title="主目录"><span style="margin-left: 8px; margin-top: 0px; top: 4px;" class="icon icon-small icon-square"><span class="icon-home"></span></span></a></li>
