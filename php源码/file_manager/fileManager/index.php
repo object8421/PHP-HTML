@@ -1,5 +1,7 @@
 <?php 
-require_once 'dir.func.php';
+ /* 此文件系统适用于php的版本为php5.2的版本
+*/
+ require_once 'dir.func.php';
 require_once 'file.func.php';
 require_once 'common.func.php';
 $path="file";
