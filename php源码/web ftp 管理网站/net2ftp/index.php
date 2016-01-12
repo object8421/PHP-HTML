@@ -56,7 +56,7 @@ if ($net2ftp_result["success"] == false) {
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="apple-touch-icon" href="favicon.png"/>
-<title>net2ftp - a web based FTP client</title>
+<title>Knight-Webfilemanger</title>
 <?php net2ftp("printJavascript"); ?>
 <?php net2ftp("printCss"); ?>
 </head>
