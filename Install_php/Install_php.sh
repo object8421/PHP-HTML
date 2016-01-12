@@ -6,6 +6,10 @@ linux_type=`cat /etc/issue | head -1 | awk '{print tolower($1)}'`
 
 yum install -y libxml2 libxslt-devel libxml2-devel openssl-devel openssl bzip2-devel libcurl libcurl-devel libjpeg libpng freetype libjpeg-devel libpng-devel freetype-devel libtool gcc+ gcc-c++ ImageMagick-devel ImageMagick
 
+#建立用户和用户组
+groupadd www
+useradd -g www www -s /sbin/nologin
+
 #安装php
 install_php_path=/opt/php
 mkdir /opt/soft
@@ -57,8 +61,6 @@ fi
 #下载php-fpm配置文件
 #git clone ..../phpsoft/php-fpm.conf
 
-#建立用户和用户组
-groupadd www
-useradd -g www www
+
 service php5-fpm start
 
