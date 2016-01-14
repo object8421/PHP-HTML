@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>DaWangBlog后台管理系统</title>
+<title>后台管理系统</title>
 <!-- 新 Bootstrap 核心 CSS 文件 -->
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
@@ -19,7 +19,7 @@
 require_once 'session.php';
 ?>
 <div class="page-header">
-  <h1>DaWangBlog v1.0 <small>一款简单易上手的博客系统</small></h1>
+  <h1>KnightBlog v1.0 <small>一款简单易上手的博客系统</small></h1>
 </div>
     <div class="row">
     <div class="col-lg-2">

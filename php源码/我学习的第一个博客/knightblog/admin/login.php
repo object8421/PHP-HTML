@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>DaWangBlog系统安装界面</title>
+    <title>KnightBlog系统安装界面</title>
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -16,7 +16,7 @@
   <tbody>
   <tr>
   <td>
-  <h3>DaWangBlog后台登录界面</h3>
+  <h3>KnightBlog后台登录界面</h3>
   </td>
   </tr>
     <tr>
