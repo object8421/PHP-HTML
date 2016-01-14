@@ -2,13 +2,11 @@
 <!-- 我是中国人 -->
 
 <?php
-$con = mysql_connect("localhost","root","root");
-if (!$con)
-  {
-  die('Could not connect: ' . mysql_error());
-  }
+require_once("config.php");
 
-mysql_select_db("xpc_liuyanban", $con);
+/* 引入数据库配置文件，不需要再写数据库的连接 
+ * 配置文件已经写好并系写好$link 
+ * */
 
 mysql_query("set names GBK");
 $result = mysql_query("SELECT * FROM lyb");
@@ -29,5 +27,5 @@ while($row = mysql_fetch_array($result))
   }
 echo "</table>";
 
-mysql_close($con);
+mysql_close($link);
 ?>
