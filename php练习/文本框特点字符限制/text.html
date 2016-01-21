@@ -7,8 +7,11 @@
 <SCRIPT type="text/javascript">
 	function aa(){
 		var id = document.getElementById("cl").value;
-		if(id=='root')
+		if (id == 'root') {
 			alert("不能是root");
+			document.getElementById("cl").value="";
+			return;
+		}
 		if(id=='star')
 			alert("不能是star");
 	}
