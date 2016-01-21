@@ -1,0 +1,22 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>文本框禁止输入特点字符</title>
+</head>
+<SCRIPT type="text/javascript">
+	function aa(){
+		var id = document.getElementById("cl").value;
+		if(id=='root')
+			alert("不能是root");
+		if(id=='star')
+			alert("不能是star");
+	}
+</SCRIPT>
+<body>
+
+
+
+输入这些字符将被自动清除：<input id='cl' onblur="aa()" value="" size="20">
+</body>
+</html>
