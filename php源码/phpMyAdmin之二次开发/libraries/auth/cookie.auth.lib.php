@@ -132,7 +132,7 @@ function PMA_auth() {
 	header ( 'Content-Type: text/html; charset=utf-8' );
 	
 	/* HTML header; do not show here the PMA version to improve security */
-	$page_title = '邦云Mysql在线查询系统 ';
+	$page_title = '华邦云Mysql在线查询系统 ';
 	include './libraries/header_meta_style.inc.php';
 	// if $page_title is set, this script uses it as the title:
 	include './libraries/header_scripts.inc.php';
