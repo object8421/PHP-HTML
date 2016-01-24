@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>局部变量在声明的函数内可以访问。</p>
+
+<p id="demo"></p>
+
+<script>
+	/**
+	 * 变量在函数内声明，变量为局部作用域。局部变量：只能在函数内部访问。
+	 * 
+	 * 因为局部变量只作用于函数内，所以不同的函数可以使用相同名称的变量。
+	 * 局部变量在函数开始执行时创建，函数执行完后局部变量会自动销毁。
+	 */
+myFunction();
+document.getElementById("demo").innerHTML =
+"I can display " + typeof carName;
+
+function myFunction() {
+    var carName = "Volvo";
+}
+</script>
+
+</body>
+</html>
